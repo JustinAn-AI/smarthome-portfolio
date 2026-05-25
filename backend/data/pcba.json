@@ -1,0 +1,75 @@
+[
+  {
+    "id": "pcba-001",
+    "code": "UNI-ZB-SW-01",
+    "name": "Universal Zigbee Switch PCBA",
+    "description": "Bo mạch chung cho công tắc 1-3 kênh Zigbee 3.0",
+    "linkedSkuIds": [
+      "prod-003",
+      "prod-004",
+      "prod-005"
+    ],
+    "firmwareBindings": [
+      {
+        "hardwareVersion": "v1.0",
+        "firmwareId": "fw-switch-1.2.0",
+        "releaseNotes": "Initial release"
+      },
+      {
+        "hardwareVersion": "v2.0",
+        "firmwareId": "fw-switch-2.0.1",
+        "releaseNotes": "No-neutral support"
+      }
+    ],
+    "createdAt": "2026-05-25T07:26:12.076Z",
+    "updatedAt": "2026-05-25T07:26:12.076Z"
+  },
+  {
+    "id": "pcba-002",
+    "code": "UNI-ZB-SNS-02",
+    "name": "Universal Zigbee Sensor PCBA",
+    "description": "Bo mạch chung cảm biến PIR/door",
+    "linkedSkuIds": [
+      "prod-006",
+      "prod-007"
+    ],
+    "firmwareBindings": [
+      {
+        "hardwareVersion": "v1.0",
+        "firmwareId": "fw-sensor-3.1.0",
+        "releaseNotes": "Motion baseline"
+      },
+      {
+        "hardwareVersion": "v1.1",
+        "firmwareId": "fw-sensor-3.2.4",
+        "releaseNotes": "Low power tuning"
+      }
+    ],
+    "createdAt": "2026-05-25T07:26:12.076Z",
+    "updatedAt": "2026-05-25T07:26:12.076Z"
+  },
+  {
+    "id": "pcba-003",
+    "code": "UNI-HUB-M3-01",
+    "name": "M3 Gateway PCBA",
+    "description": "Hub trung tâm Matter-over-Thread + Zigbee coordinator",
+    "linkedSkuIds": [
+      "prod-001",
+      "prod-002"
+    ],
+    "firmwareBindings": [
+      {
+        "hardwareVersion": "v1.0",
+        "firmwareId": "fw-hub-4.0.0",
+        "releaseNotes": "Matter bridge GA"
+      },
+      {
+        "hardwareVersion": "v2.0",
+        "firmwareId": "fw-hub-4.2.0",
+        "releaseNotes": "128→256 device load"
+      }
+    ],
+    "createdAt": "2026-05-25T07:26:12.076Z",
+    "updatedAt": "2026-05-25T07:26:12.076Z"
+  }
+]

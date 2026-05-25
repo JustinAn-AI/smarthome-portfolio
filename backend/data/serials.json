@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sn-001",
+    "serialNumber": "CN2025GW0001001",
+    "skuId": "prod-002",
+    "region": "MAINLAND_CHINA",
+    "manufacturedAt": "2025-01-15T00:00:00.000Z",
+    "activated": false,
+    "activatedAt": null,
+    "activationServer": null,
+    "blocked": false,
+    "blockReason": null
+  },
+  {
+    "id": "sn-002",
+    "serialNumber": "GL2025GW0002001",
+    "skuId": "prod-001",
+    "region": "GLOBAL",
+    "manufacturedAt": "2025-02-01T00:00:00.000Z",
+    "activated": true,
+    "activatedAt": "2025-02-10T08:00:00.000Z",
+    "activationServer": "GLOBAL",
+    "blocked": false,
+    "blockReason": null
+  },
+  {
+    "id": "sn-003",
+    "serialNumber": "CN2025SW0003001",
+    "skuId": "prod-004",
+    "region": "MAINLAND_CHINA",
+    "manufacturedAt": "2025-03-01T00:00:00.000Z",
+    "activated": false,
+    "activatedAt": null,
+    "activationServer": null,
+    "blocked": true,
+    "blockReason": "China domestic unit — Global activation blocked"
+  },
+  {
+    "id": "sn-004",
+    "serialNumber": "VN2025SW0004001",
+    "skuId": "prod-004",
+    "region": "VN",
+    "manufacturedAt": "2025-03-15T00:00:00.000Z",
+    "activated": false,
+    "activatedAt": null,
+    "activationServer": null,
+    "blocked": false,
+    "blockReason": null
+  }
+]

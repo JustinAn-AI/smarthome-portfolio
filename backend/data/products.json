@@ -1,0 +1,377 @@
+[
+  {
+    "id": "prod-001",
+    "commercialSku": "SH-GW-M3-GL",
+    "name": "M3 Smart Gateway (Global)",
+    "systemRole": "HUB_CENTRAL",
+    "productCategory": "SWITCH",
+    "region": "GLOBAL",
+    "protocol": "MATTER",
+    "lifecycle": "CASH_COW",
+    "activationRate": 92,
+    "offlineRate": 1.2,
+    "salesSpecs": {
+      "maxChildDevices": 128,
+      "powerPort": "USB Type-C",
+      "ethernet": true
+    },
+    "description": "Hub điều phối Matter + Zigbee cho thị trường quốc tế",
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:50:36.534Z",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f933?w=200&h=200&fit=crop",
+    "listPrice": "",
+    "installationSteps": [],
+    "wiringDiagramUrl": "",
+    "dimensions": {
+      "widthMm": 0,
+      "heightMm": 0,
+      "depthMm": 0
+    },
+    "weightG": 0
+  },
+  {
+    "id": "prod-002",
+    "commercialSku": "SH-GW-M3-CN",
+    "name": "M3 Gateway (China Domestic)",
+    "systemRole": "HUB_CENTRAL",
+    "productCategory": "SWITCH",
+    "region": "MAINLAND_CHINA",
+    "protocol": "ZIGBEE_3",
+    "lifecycle": "CASH_COW",
+    "activationRate": 88,
+    "offlineRate": 2.8,
+    "salesSpecs": {
+      "maxChildDevices": 128,
+      "powerPort": "USB Type-C",
+      "ethernet": true
+    },
+    "description": "Phiên bản nội địa Trung Quốc",
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:50:36.534Z",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85f933?w=200&h=200&fit=crop",
+    "listPrice": "",
+    "installationSteps": [],
+    "wiringDiagramUrl": "",
+    "dimensions": {
+      "widthMm": 0,
+      "heightMm": 0,
+      "depthMm": 0
+    },
+    "weightG": 0
+  },
+  {
+    "id": "prod-003",
+    "commercialSku": "SH-SW-1G-NN-EU",
+    "name": "Công tắc 1 kênh No-Neutral EU",
+    "systemRole": "PERIPHERAL_HUB",
+    "productCategory": "SWITCH",
+    "region": "EU",
+    "protocol": "ZIGBEE_3",
+    "lifecycle": "CASH_COW",
+    "activationRate": 81,
+    "offlineRate": 4,
+    "salesSpecs": {
+      "maxLoadW": 800,
+      "neutralWire": "NO_NEUTRAL",
+      "mountType": "RECTANGLE",
+      "channels": 1
+    },
+    "listPrice": "890.000đ",
+    "installationSteps": [
+      "Bước 1: Ngắt nguồn điện tại aptomat trước khi thao tác.",
+      "Bước 2: Tháo công tắc cũ, đấu dây L (pha) và N (nguội) vào cọc nguồn theo sơ đồ.",
+      "Bước 3: Gắn thiết bị vào đế âm, vặn ốc vít chắc chắn.",
+      "Bước 4: Bật điện và ghép nối qua app Smart Home."
+    ],
+    "wiringDiagramUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&fit=crop",
+    "dimensions": {
+      "widthMm": 86,
+      "heightMm": 86,
+      "depthMm": 34
+    },
+    "weightG": 118,
+    "predecessorId": "prod-004",
+    "description": "Công tắc không dây nguội — EU",
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:50:36.534Z",
+    "imageUrl": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=200&h=200&fit=crop"
+  },
+  {
+    "id": "prod-004",
+    "commercialSku": "SH-SW-1G-N-VN",
+    "name": "Công tắc 1 kênh có Neutral VN",
+    "systemRole": "PERIPHERAL_HUB",
+    "productCategory": "SWITCH",
+    "region": "VN",
+    "protocol": "ZIGBEE_3",
+    "lifecycle": "RND",
+    "activationRate": 76,
+    "offlineRate": 5.6,
+    "salesSpecs": {
+      "maxLoadW": 600,
+      "neutralWire": "WITH_NEUTRAL",
+      "mountType": "SQUARE",
+      "channels": 1
+    },
+    "listPrice": "650.000đ",
+    "installationSteps": [
+      "Bước 1: Ngắt nguồn điện tại aptomat trước khi thao tác.",
+      "Bước 2: Tháo công tắc cũ, đấu dây L (pha) và N (nguội) vào cọc nguồn theo sơ đồ.",
+      "Bước 3: Gắn thiết bị vào đế âm, vặn ốc vít chắc chắn.",
+      "Bước 4: Bật điện và ghép nối qua app Smart Home."
+    ],
+    "wiringDiagramUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&fit=crop",
+    "dimensions": {
+      "widthMm": 86,
+      "heightMm": 86,
+      "depthMm": 34
+    },
+    "weightG": 118,
+    "successorId": "prod-003",
+    "description": "Mẫu cũ — Sales chuyển khách sang No-N EU",
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:51:53.830Z",
+    "imageUrl": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=200&h=200&fit=crop",
+    "predecessorId": null
+  },
+  {
+    "id": "prod-005",
+    "commercialSku": "SH-SW-2G-N-US",
+    "name": "Công tắc 2 kênh US",
+    "systemRole": "PERIPHERAL_HUB",
+    "productCategory": "SWITCH",
+    "region": "US",
+    "protocol": "ZIGBEE_3",
+    "lifecycle": "DEPRECATED",
+    "activationRate": 68,
+    "offlineRate": 3,
+    "salesSpecs": {
+      "maxLoadW": 1200,
+      "neutralWire": "WITH_NEUTRAL",
+      "mountType": "RECTANGLE",
+      "channels": 2
+    },
+    "description": "Sắp ra mắt thị trường Mỹ",
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:51:46.324Z",
+    "imageUrl": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=200&h=200&fit=crop",
+    "listPrice": "",
+    "installationSteps": [],
+    "wiringDiagramUrl": "",
+    "dimensions": {
+      "widthMm": 0,
+      "heightMm": 0,
+      "depthMm": 0
+    },
+    "weightG": 0,
+    "predecessorId": null
+  },
+  {
+    "id": "prod-006",
+    "commercialSku": "SH-PIR-GL",
+    "name": "Cảm biến chuyển động Pro",
+    "systemRole": "PERIPHERAL_HUB",
+    "productCategory": "SENSOR",
+    "region": "GLOBAL",
+    "protocol": "ZIGBEE_3",
+    "lifecycle": "CASH_COW",
+    "activationRate": 90,
+    "offlineRate": 2,
+    "salesSpecs": {
+      "batteryType": "CR2450",
+      "detectionRangeM": 7,
+      "sensorSubtype": "Motion"
+    },
+    "successorId": "prod-007",
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:50:36.534Z",
+    "imageUrl": "https://images.unsplash.com/photo-1558002038-105d7a3b0a26?w=200&h=200&fit=crop",
+    "listPrice": "",
+    "installationSteps": [],
+    "wiringDiagramUrl": "",
+    "dimensions": {
+      "widthMm": 0,
+      "heightMm": 0,
+      "depthMm": 0
+    },
+    "weightG": 0
+  },
+  {
+    "id": "prod-007",
+    "commercialSku": "SH-PRES-GL",
+    "name": "Cảm biến hiện diện mmWave",
+    "systemRole": "PERIPHERAL_HUB",
+    "productCategory": "SENSOR",
+    "region": "GLOBAL",
+    "protocol": "ZIGBEE_3",
+    "lifecycle": "RND",
+    "activationRate": 54,
+    "offlineRate": 7,
+    "salesSpecs": {
+      "batteryType": "USB-C",
+      "detectionRangeM": 6,
+      "sensorSubtype": "Presence/Radar"
+    },
+    "predecessorId": "prod-006",
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:50:36.534Z",
+    "imageUrl": "https://images.unsplash.com/photo-1558002038-105d7a3b0a26?w=200&h=200&fit=crop",
+    "listPrice": "",
+    "installationSteps": [],
+    "wiringDiagramUrl": "",
+    "dimensions": {
+      "widthMm": 0,
+      "heightMm": 0,
+      "depthMm": 0
+    },
+    "weightG": 0
+  },
+  {
+    "id": "prod-008",
+    "commercialSku": "SH-CAM-G2-GL",
+    "name": "Camera an ninh G2",
+    "systemRole": "STANDALONE_CLOUD",
+    "productCategory": "SECURITY",
+    "region": "GLOBAL",
+    "protocol": "WIFI",
+    "lifecycle": "CASH_COW",
+    "activationRate": 94,
+    "offlineRate": 1.8,
+    "salesSpecs": {
+      "resolution": "2K",
+      "connectivity": "Wi-Fi, BLE",
+      "nightVision": true
+    },
+    "successorId": "prod-009",
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:50:36.534Z",
+    "imageUrl": "https://images.unsplash.com/photo-1557324232-974ad9c20d0f?w=200&h=200&fit=crop",
+    "listPrice": "",
+    "installationSteps": [],
+    "wiringDiagramUrl": "",
+    "dimensions": {
+      "widthMm": 0,
+      "heightMm": 0,
+      "depthMm": 0
+    },
+    "weightG": 0
+  },
+  {
+    "id": "prod-009",
+    "commercialSku": "SH-CAM-G3-GL",
+    "name": "Camera G3 Matter",
+    "systemRole": "STANDALONE_CLOUD",
+    "productCategory": "SECURITY",
+    "region": "GLOBAL",
+    "protocol": "MATTER",
+    "lifecycle": "RND",
+    "activationRate": 42,
+    "offlineRate": 8,
+    "salesSpecs": {
+      "resolution": "4K",
+      "connectivity": "Wi-Fi, Thread",
+      "nightVision": true
+    },
+    "predecessorId": "prod-008",
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:50:36.534Z",
+    "imageUrl": "https://images.unsplash.com/photo-1557324232-974ad9c20d0f?w=200&h=200&fit=crop",
+    "listPrice": "",
+    "installationSteps": [],
+    "wiringDiagramUrl": "",
+    "dimensions": {
+      "widthMm": 0,
+      "heightMm": 0,
+      "depthMm": 0
+    },
+    "weightG": 0
+  },
+  {
+    "id": "prod-010",
+    "commercialSku": "SH-LOCK-U300-EU",
+    "name": "Khóa thông minh U300",
+    "systemRole": "STANDALONE_CLOUD",
+    "productCategory": "SECURITY",
+    "region": "EU",
+    "protocol": "BLE",
+    "lifecycle": "CASH_COW",
+    "activationRate": 87,
+    "offlineRate": 2.4,
+    "salesSpecs": {
+      "resolution": "—",
+      "connectivity": "BLE + Wi-Fi Bridge",
+      "nightVision": false
+    },
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:50:36.534Z",
+    "imageUrl": "https://images.unsplash.com/photo-1557324232-974ad9c20d0f?w=200&h=200&fit=crop",
+    "listPrice": "",
+    "installationSteps": [],
+    "wiringDiagramUrl": "",
+    "dimensions": {
+      "widthMm": 0,
+      "heightMm": 0,
+      "depthMm": 0
+    },
+    "weightG": 0
+  },
+  {
+    "id": "prod-011",
+    "commercialSku": "SH-LIGHT-RGB-GL",
+    "name": "Đèn thông minh RGB",
+    "systemRole": "PERIPHERAL_HUB",
+    "productCategory": "LIGHTING",
+    "region": "GLOBAL",
+    "protocol": "ZIGBEE_3",
+    "lifecycle": "CASH_COW",
+    "activationRate": 85,
+    "offlineRate": 2.5,
+    "salesSpecs": {
+      "lumens": 1100,
+      "wattageW": 12,
+      "colorMode": "RGB"
+    },
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:50:36.534Z",
+    "imageUrl": "https://images.unsplash.com/photo-1565814636192-8452d1f7a4d0?w=200&h=200&fit=crop",
+    "listPrice": "",
+    "installationSteps": [],
+    "wiringDiagramUrl": "",
+    "dimensions": {
+      "widthMm": 0,
+      "heightMm": 0,
+      "depthMm": 0
+    },
+    "weightG": 0
+  },
+  {
+    "id": "prod-012",
+    "commercialSku": "SH-SOCK-2P-VN",
+    "name": "Ổ cắm thông minh 2 cổng",
+    "systemRole": "PERIPHERAL_HUB",
+    "productCategory": "SOCKET",
+    "region": "VN",
+    "protocol": "ZIGBEE_3",
+    "lifecycle": "CASH_COW",
+    "activationRate": 79,
+    "offlineRate": 3.8,
+    "salesSpecs": {
+      "maxLoadW": 2500,
+      "neutralWire": "WITH_NEUTRAL",
+      "mountType": "RECTANGLE",
+      "usbPorts": 2
+    },
+    "createdAt": "2026-05-25T07:50:36.534Z",
+    "updatedAt": "2026-05-25T07:50:36.534Z",
+    "imageUrl": "https://images.unsplash.com/photo-1584438784894-6d2e27e71d77?w=200&h=200&fit=crop",
+    "listPrice": "",
+    "installationSteps": [],
+    "wiringDiagramUrl": "",
+    "dimensions": {
+      "widthMm": 0,
+      "heightMm": 0,
+      "depthMm": 0
+    },
+    "weightG": 0
+  }
+]

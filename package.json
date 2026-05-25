@@ -1,0 +1,17 @@
+{
+  "name": "smarthome-portfolio-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart Home Product Portfolio Management Tool",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "test:smoke": "cd backend && npm run test:smoke"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

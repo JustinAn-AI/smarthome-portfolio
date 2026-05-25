@@ -24,14 +24,25 @@ app.get('*', (req, res, next) => {
   res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
 });
 
-// Hàm khởi chạy server
-async function start() {
-  // await initDb(); // Bỏ comment nếu bạn có hàm initDb
-  app.listen(PORT, () => {
-    console.log(`Sales Catalog API -> http://localhost:${PORT}`);
-  });
-}
-
+  async function start() {
+    await initDb();
+  
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+  
+    // 1. Cấu hình phục vụ file tĩnh
+    app.use(express.static(path.join(__dirname, '../frontend/dist')));
+  
+    // 2. Điều hướng fallback cho React Router
+    app.get('*', (req, res, next) => {
+      if (req.path.startsWith('/api')) return next();
+      res.sendFile(path.join(__dirname, '../frontend/dist', 'index.html'));
+    });
+  
+    app.listen(PORT, () => {
+      console.log(`Sales Catalog API -> http://localhost:${PORT}`);
+    });
+  }
 start().catch((err) => {
   console.error('Failed to start:', err);
   process.exit(1);
